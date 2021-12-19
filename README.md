@@ -8,7 +8,7 @@
 * Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
 
 
-Dashboards illustrating various on-chain merics for various blockchains. Header bar allows the user to navigate to the following sections:
+Dashboard illustrates various on-chain metrics for various blockchains. Header bar allows the user to navigate to the following sections:
 * Ethereum 
 
  ![image](https://user-images.githubusercontent.com/54357950/146677394-3bc389c2-372e-4e49-b42e-dcd30638d0d0.png)

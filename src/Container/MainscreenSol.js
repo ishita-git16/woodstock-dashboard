@@ -39,27 +39,10 @@ const MainScreenSol = () => {
       </Menu>
            </Header>
            <Layout>             
-           {/* <Sider 
-             style={{ height: "220vh", minWidth: "70vh", backgroundColor:"skyblue"}}>
-                 Sider
-                 </Sider> */}
+          
         <TheContentSol />
         </Layout>
-            {/* <Footer
-            className="ant-layout-footer"
-            style={{
-                textAlign: "center",
-                backgroundColor: "#DBDDE0",
-                // marginBottom:"10px",
-                // position: "10vh",
-                // minHeight: "2vh",
-                // minWidth: "100vh",
-                maxHeight: "10px",
-
-            }}
-            >
-                <div> Powered by : Integrated Active Monitoring Pvt. Ltd.</div>
-            </Footer> */}
+         
       </Layout>
     </>
   );
