@@ -1,7 +1,7 @@
 
 # Cryptocurrencies : On-Chain Metrics Analysis Dashboard
 
-#Setup :
+## Setup :
 
 * First install the required dependencies through `npm install`.
 * Enter the following command in the terminal : npm start
@@ -21,7 +21,7 @@ Dashboards illustrating various on-chain merics for various blockchains. Header 
 
  ![image](https://user-images.githubusercontent.com/54357950/146677456-376e8b2d-2ab2-4b2e-b2bb-1ae443b62f47.png)
 
-#Features
+## Features
 
 * Different widgets illustrating daily and monthly trends in price variation, volumne variation of this cryptocurrency.
 * Illustrating the above metrics as well as number of transactions per second, Market Cap, 24h Change and value in USD all updated in #real-time.
