@@ -18,4 +18,5 @@ Dashboards illustrating various on-chain merics for various blockchains. Header 
 * Solana - Illustrating the above metrics as well as number of transactions per second, Market Cap in USD.
 * Comparison - Comparison of the trends from the above two cryptocurrencies.
 
-![image](https://user-images.githubusercontent.com/54357950/146677353-05553b90-5298-403c-b653-1023cc7ef8c5.png)
+
+![image](https://user-images.githubusercontent.com/54357950/146677394-3bc389c2-372e-4e49-b42e-dcd30638d0d0.png)
