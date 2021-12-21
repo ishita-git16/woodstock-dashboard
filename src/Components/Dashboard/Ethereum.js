@@ -34,9 +34,7 @@ const Ethereum = () => {
   const { RangePicker } = DatePicker;
   const [newData, setNewdata] = useState();
   const [dropd, setDropd] = useState(localStorage.getItem('tt'));
-  // const [voltage, setVoltage] = useState([]);
-  // const [current, setCurrent] = useState([]);
-  // const [powerFactor, setPowerFactor] = useState([]);
+  
   const [voltage1data, setVoltage1data] = useState([]);
   const [voltage2data, setVoltage2data] = useState([]);
   const [voltage3data, setVoltage3data] = useState([]);
@@ -165,11 +163,6 @@ const Ethereum = () => {
               <br/>
               
              
-              {/* Last Updated at 
-              <Tag color="processing"> {moment.unix(btc.last_updated_at).format('DD:MM:YYYY HH:MM:SS')}</Tag> */}
-             
-             
-              {/* {voltage3data} */}
               </Space>
               
             </Card>

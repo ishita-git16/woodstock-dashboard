@@ -2657,8 +2657,7 @@ const Chart2 = (props) => {
    for(var i =0; i <data.length; i++){
      const json = [];
      json.push({Date: `${data[i].Date}`, High: `${data[i].High}`})
-    //  console.log(json)
-    // setEthData(json);
+    
    }
    
 

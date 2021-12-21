@@ -14,19 +14,11 @@ import {
   Brush,
   ResponsiveContainer,
 } from "recharts";
-//Data for getting power consumption
+
 const Chart2 = (props) => {
-  // var min1 = Infinity ;
-  // var max1 = 0;
-  // const date_ = moment(new Date()).format("YYYY-MM-DD");
-  // const dates = convert(date_);
+  
   const [ethData, setEthData] = useState([]);
-  // const [newdata, setNewdata] = useState([]);  
-  // const [rangeStart, setRangeStart] = React.useState(new Date)
-  // const defaultEndDate = new Date()
-  // defaultEndDate.setDate(defaultEndDate.getDate() + 7)
-  // const [rangeEnd, setRangeEnd] = React.useState(defaultEndDate)
-  // const today = new Date()
+  
   const data = [
     {
       "Date": "Jan 01, 2021",
@@ -3324,22 +3316,14 @@ const Chart2 = (props) => {
    for(var i =0; i <data.length; i++){
      const json = [];
      json.push({Date: `${data[i].Date}`, High: `${data[i].High}`})
-    //  console.log(json)
-    // setEthData(json);
+  
    }
    
 
  
   return (
     <>
-      {/* <DatePicker
-        dateFormat="yyyy/MM/dd"
-        selected={startDate}
-        onChange={selectDateHandler}
-        minDate={today}
-        todayButton={"Today"}
-      /> */}
-
+    
       <LineChart
         width={500}
         height={300}

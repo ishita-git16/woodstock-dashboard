@@ -107,17 +107,11 @@ const Bar1 = (props) => {
       kwh: data[1],
     };
   });
-  // console.log(keyValueData)
+ 
 
   return (
     <>
-      {/* <DatePicker
-    dateFormat="yyyy/MM/dd"
-    selected={startDate}
-    onChange={selectDateHandler} 
-    minDate={today}
-    todayButton={"Today"}/>
-     */}
+     
       <BarChart
         width={1000}
         height={300}
