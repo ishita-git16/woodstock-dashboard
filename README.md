@@ -7,9 +7,7 @@
 * Enter the following command in the terminal : npm start
 * Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
 
-
 Dashboards illustrating various on-chain merics for various blockchains. Header bar allows the user to navigate to the following sections:
-
 
 ## Features
 
@@ -19,7 +17,7 @@ Dashboards illustrating various on-chain merics for various blockchains. Header 
 
 Snips from various sections :
 
-* Ethereum 
+# * Ethereum 
 ## Ethereum Daily Price, Volume Variation Trends (2021) :
 The Ethereum (ETH) price in USD soared to new heights in November 2021, reaching over 4,800 U.S. dollars as displayed in the graph.
 
@@ -29,7 +27,7 @@ Ethereum, like most major cryptocurrencies, is built on a system called “proof
 
  ![image](https://user-images.githubusercontent.com/54357950/146677394-3bc389c2-372e-4e49-b42e-dcd30638d0d0.png)
  
-* Solana 
+# * Solana 
 ## Low Transaction Rate and costs:
 Solana can handle much more transactions per second than Ethereum. The live Solana price today is $183.56 USD with a 24-hour trading volume of $1,585,204,429 USD.
 
@@ -39,7 +37,7 @@ fourth-most-valuable cryptocurrency in the world.
 
 ![image](https://user-images.githubusercontent.com/54357950/146677494-a50ae0da-40a6-4a64-a37a-fc9a8d7e0236.png)
 
-* Comparison 
+# * Comparison 
 1) The competition between layer ones has been raging since the introduction of various
 decentralized applications and non-fungible tokens in 2021.
 2) A crucial selling point for Solana is certainly its ability to process a block every 400 milliseconds and its record 60k transactions per second. Just these features alone make it one of the fastest performing layer-one blockchains. 
