@@ -19,7 +19,7 @@ Dashboards illustrating various on-chain merics for various blockchains. Header 
 
 Snips from various sections :
 
-* Ethereum 
+# Ethereum 
 ## Ethereum Daily Price, Volume Variation Trends (2021) :
 The Ethereum (ETH) price in USD soared to new heights in November 2021, reaching over 4,800 U.S. dollars as displayed in the graph.
 
