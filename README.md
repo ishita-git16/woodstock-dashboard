@@ -1,52 +1,98 @@
+# 📉 Cryptocurrencies: On-Chain Metrics Analysis Dashboard
 
-# Cryptocurrencies : On-Chain Metrics Analysis Dashboard
+A real-time dashboard visualizing and comparing **on-chain metrics** for major cryptocurrencies like **Ethereum** and **Solana**. This app provides insights into price movements, transaction speeds, market caps, and environmental impact — all in an interactive format.
 
-## Setup :
+---
 
-* First install the required dependencies through `npm install`.
-* Enter the following command in the terminal : npm start
-* Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
+## ⚙️ Setup Instructions
 
-Dashboards illustrating various on-chain merics for various blockchains. Header bar allows the user to navigate to the following sections:
+1. **Install dependencies**:
 
-## Features
+   ```bash
+   npm install
+   ```
 
-* Different widgets illustrating daily and monthly trends in price variation, volumne variation of this cryptocurrency.
-* Illustrating the above metrics as well as number of transactions per second, Market Cap, 24h Change and value in USD all updated in real-time.
-* Comparison for easy analysis of various trends for the above two cryptocurrencies.
+2. **Start the application**:
 
-Snips from various sections :
+   ```bash
+   npm start
+   ```
 
-# * Ethereum 
-## Ethereum Daily Price, Volume Variation Trends (2021) :
-The Ethereum (ETH) price in USD soared to new heights in November 2021, reaching over 4,800 U.S. dollars as displayed in the graph.
+3. **Open your browser**:
+   Navigate to 👉 [http://localhost:3000](http://localhost:3000)
 
-## Environmental Impact:
-Ethereum, like most major cryptocurrencies, is built on a system called “proof of work” that is incredibly energy hungry.
+---
 
+## 🧩 Features
 
- ![image](https://user-images.githubusercontent.com/54357950/146677394-3bc389c2-372e-4e49-b42e-dcd30638d0d0.png)
- 
-# * Solana 
-## Low Transaction Rate and costs:
-Solana can handle much more transactions per second than Ethereum. The live Solana price today is $183.56 USD with a 24-hour trading volume of $1,585,204,429 USD.
+* 📈 Real-time price, volume, and market cap data
+* 📊 Daily & monthly trend widgets for Ethereum and Solana
+* 🔄 Live metrics like TPS (transactions per second), 24h price change, and USD value
+* ⚔️ Side-by-side blockchain comparisons
+* 🧽 Smooth navigation across all metric views
 
-## Price and Volume Trends:
-Solana has been a top performer in 2021, rising through the ranks of altcoins to become the
-fourth-most-valuable cryptocurrency in the world.
+---
 
-![image](https://user-images.githubusercontent.com/54357950/146677494-a50ae0da-40a6-4a64-a37a-fc9a8d7e0236.png)
+## 📸 Data Stories in Pictures
 
-# * Comparison 
-1) The competition between layer ones has been raging since the introduction of various
-decentralized applications and non-fungible tokens in 2021.
-2) A crucial selling point for Solana is certainly its ability to process a block every 400 milliseconds and its record 60k transactions per second. Just these features alone make it one of the fastest performing layer-one blockchains. 
-3) Since ethereum is older than Solana its development community generally agrees with each other and they all share a similar vision of where they see the technology going. Ethereum has come under much scrutiny because of the fact of environmental harms caused by it, and shifting the entirety of NFT applications on Solana might be a nice move.
+### 🔹 Ethereum Insights
 
- ![image](https://user-images.githubusercontent.com/54357950/146677456-376e8b2d-2ab2-4b2e-b2bb-1ae443b62f47.png)
+#### 📈 Daily Price & Volume Trends (2021)
 
+> Ethereum’s price peaked at over **\$4,800** in November 2021.
 
+![Ethereum Price & Volume](https://user-images.githubusercontent.com/54357950/146677394-3bc389c2-372e-4e49-b42e-dcd30638d0d0.png)
 
+#### 🌍 Environmental Impact
 
+Ethereum uses **Proof of Work**, which is highly energy-intensive — making sustainability a major concern.
 
+---
 
+### 🔶 Solana Insights
+
+#### ⚡ High Speed & Low Costs
+
+> Solana processes up to **60,000 transactions/second** at extremely low fees.
+
+The live Solana price is **\$183.56 USD**, with a 24-hour trading volume of over **\$1.58B USD**.
+
+#### 📊 Price & Volume Trends
+
+Solana climbed the crypto ranks in 2021 to become the **4th-most valuable cryptocurrency**.
+
+![Solana Price & Volume](https://user-images.githubusercontent.com/54357950/146677494-a50ae0da-40a6-4a64-a37a-fc9a8d7e0236.png)
+
+---
+
+### ⚔️ Ethereum vs Solana: A Quick Comparison
+
+1. The **Layer-1 war** has intensified with the rise of dApps and NFTs.
+2. **Solana** leads in speed — blocks every 400ms with 60k TPS.
+3. **Ethereum** has a larger dev base, but faces criticism for energy consumption.
+4. **NFTs & eco-conscious apps** may prefer Solana’s greener model.
+
+![Blockchain Comparison](https://user-images.githubusercontent.com/54357950/146677456-376e8b2d-2ab2-4b2e-b2bb-1ae443b62f47.png)
+
+---
+
+## 💠 Tech Stack
+
+* ⚛️ React.js
+* 📊 Chart.js / D3.js
+* 🔐 CoinGecko API (or similar)
+* 💅 CSS3 & responsive design
+
+---
+
+## 👩‍💼 Author
+
+**Ishita Singhal**
+📧 [f20180349@pilani.bits-pilani.ac.in](mailto:f20180349@pilani.bits-pilani.ac.in)
+🔗 [GitHub](https://github.com/ishita-git16) | [LinkedIn](https://www.linkedin.com/in/ishita-singhal)
+
+---
+
+## 📌 Note
+
+This project was built as part of a personal learning initiative to understand blockchain metrics and create engaging data dashboards in real-time.
